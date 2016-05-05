@@ -9,9 +9,9 @@ and contains [Python 2.7](https://www.python.org/).
 ## Usage Example
 
 ```bash
-docker run --rm apihackers/python2 python2 -c 'print("Hello World")'
+docker run --rm apihackers/python2 python -c 'print("Hello World")'
 ```
 
 Once you have run this command you will get printed 'Hello World' from Python!
 
-NOTE: `pip`/`pip3` is also available in this image.
+NOTE: `pip` is also available in this image.
